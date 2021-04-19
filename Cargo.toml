@@ -1,0 +1,41 @@
+[package]
+name = "rust-design-patterns"
+version = "0.1.0"
+authors = ["Vi-Sri <nikola.tesla195@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "factory"
+path = "./creational/factory.rs"
+
+[[bin]]
+name = "builder"
+path = "./creational/builder.rs"
+
+[[bin]]
+name = "singleton"
+path = "./creational/singleton.rs"
+
+[[bin]]
+name = "strategy"
+path = "./behavioral/strategy.rs"
+
+[[bin]]
+name = "state"
+path = "./behavioral/state.rs"
+
+[[bin]]
+name = "command"
+path = "./behavioral/command.rs"
+
+[[bin]]
+name = "iterator"
+path = "./behavioral/iterator.rs"
+
+[[bin]]
+name = "adapter"
+path = "./structural/adapter.rs"
+
+[[bin]]
+name = "decorator"
+path = "./structural/decorator.rs"
